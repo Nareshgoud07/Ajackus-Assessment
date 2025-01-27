@@ -1,0 +1,31 @@
+.user-form {
+    padding-left: 40px;
+}
+
+.add-user-head {
+    font-size: 28px;
+    padding: 15px;
+
+}
+
+.first-name-input-field {
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    border: 0px solid red;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    margin: 25px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #db350b;
+    border: 0px solid red;
+    color: #ffffff;
+    cursor: pointer;
+}

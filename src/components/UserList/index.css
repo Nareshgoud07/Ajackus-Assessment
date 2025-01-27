@@ -1,0 +1,59 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.User-List-Heading {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+.Table-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Table-Head-Card {
+    background-color: blueviolet;
+    padding: 0px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.table-headings {
+    padding: 6px;
+    font-size: 10px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+.Table-card-body {
+    background-color: #d5c9d6;
+    color: black;
+}
+
+.table-body-card-para {
+    font-size: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.table-body-card-button {
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    padding:3px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
